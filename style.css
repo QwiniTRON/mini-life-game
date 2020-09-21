@@ -1,0 +1,41 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+canvas{
+    display: block;
+    border: 3px solid #aaa;
+    outline: 2px solid #888;
+    outline-offset: -2px;
+    margin: 50px auto;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.btn--start {
+    background-color: #0f8;
+}
+.btn--restart {
+    background-color: #f99;
+}
+
+.btn--start:disabled{
+    background-color: #9b9;
+}
+
+.btn--restart:disabled{
+    background-color: #a99;
+}
+
